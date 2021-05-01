@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mermaid | VuePress diagrams howto</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/vuepress-pdf/favicon.ico">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/vuepress-pdf/assets/css/0.styles.06c47178.css" as="style"><link rel="preload" href="/vuepress-pdf/assets/js/app.0c353758.js" as="script"><link rel="preload" href="/vuepress-pdf/assets/js/2.52dbbd36.js" as="script"><link rel="preload" href="/vuepress-pdf/assets/js/15.09d9981f.js" as="script"><link rel="preload" href="/vuepress-pdf/assets/js/10.a6e26ae0.js" as="script"><link rel="prefetch" href="/vuepress-pdf/assets/js/11.b69bfa61.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/12.5d779002.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/13.c5d3f25e.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/14.4fa7aafb.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/16.1e0dcbec.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/3.c82211cb.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/4.d6a663da.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/5.821a12fc.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/6.c9e11ab6.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/7.95c35154.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/8.10f9eac5.js"><link rel="prefetch" href="/vuepress-pdf/assets/js/9.42da39aa.js">
+    <link rel="stylesheet" href="/vuepress-pdf/assets/css/0.styles.06c47178.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress-pdf/" class="home-link router-link-active"><!----> <span class="site-name">VuePress diagrams howto</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"> <a href="https://github.com/daggerok/vuepress-pdf" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"> <a href="https://github.com/daggerok/vuepress-pdf" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/vuepress-pdf/" aria-current="page" class="sidebar-link">Home</a></li><li><a href="/vuepress-pdf/mermaid.html" aria-current="page" class="active sidebar-link">Mermaid</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-pdf/mermaid.html#class-diagram" class="sidebar-link">Class diagram</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/mermaid.html#graph" class="sidebar-link">Graph</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/mermaid.html#sequence-diagram" class="sidebar-link">Sequence diagram</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/mermaid.html#gantt-diagram" class="sidebar-link">Gantt diagram</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/mermaid.html#mermaid-8-4-3-state-diagram" class="sidebar-link">Mermaid 8.4.3+ =&gt; State diagram</a></li></ul></li><li><a href="/vuepress-pdf/uml.html" class="sidebar-link">UML</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#plantuml" class="sidebar-link">PlantUml</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#mindmap" class="sidebar-link">MindMap</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#nodes" class="sidebar-link">Nodes</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#steps-flow" class="sidebar-link">Steps flow</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#notes-flow" class="sidebar-link">Notes flow</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#solidity-diagraph" class="sidebar-link">Solidity Diagraph</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#sample-1" class="sidebar-link">sample 1</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/uml.html#sample-2" class="sidebar-link">sample 2</a></li></ul></li></ul></li><li><a href="/vuepress-pdf/charts.html" class="sidebar-link">Charts</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#bar-chart" class="sidebar-link">Bar chart</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#pie-chart" class="sidebar-link">Pie chart</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#column-chart" class="sidebar-link">Column chart</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#area-chart" class="sidebar-link">Area chart</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#scatter-chart" class="sidebar-link">Scatter chart</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/charts.html#line-chart" class="sidebar-link">Line chart</a></li></ul></li><li><a href="/vuepress-pdf/math.html" class="sidebar-link">Math</a></li><li><a href="/vuepress-pdf/developer-guide.html" class="sidebar-link">Developer Guide</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-pdf/developer-guide.html#quickstart-new-project" class="sidebar-link">Quickstart new project</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/developer-guide.html#build-and-serve" class="sidebar-link">Build and serve</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/developer-guide.html#publish-via-ci" class="sidebar-link">Publish via CI</a></li><li class="sidebar-sub-header"><a href="/vuepress-pdf/developer-guide.html#rtfm" class="sidebar-link">rtfm</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="mermaid"><a href="#mermaid" class="header-anchor">#</a> Mermaid</h1> <h2 id="class-diagram"><a href="#class-diagram" class="header-anchor">#</a> Class diagram</h2> <div class="language-scala extra-class"><pre class="language-scala"><code><span class="token generics"><span class="token punctuation">&lt;</span>mermaid<span class="token punctuation">&gt;</span></span>
+classDiagram
+Class01 <span class="token operator">&lt;</span><span class="token operator">|</span><span class="token operator">--</span> AveryLongClass <span class="token operator">:</span> Cool
+Class03 <span class="token operator">*</span><span class="token operator">--</span> Class04
+Class05 o<span class="token operator">--</span> Class06
+Class07 <span class="token punctuation">.</span><span class="token punctuation">.</span> Class08
+Class09 <span class="token operator">--</span><span class="token operator">&gt;</span> C2 <span class="token operator">:</span> Where am i<span class="token operator">?</span>
+Class09 <span class="token operator">--</span><span class="token operator">*</span> C3
+Class09 <span class="token operator">--</span><span class="token operator">|</span><span class="token operator">&gt;</span> Class07
+Class07 <span class="token operator">:</span> equals<span class="token punctuation">(</span><span class="token punctuation">)</span>
+Class07 <span class="token operator">:</span> Object<span class="token punctuation">[</span><span class="token punctuation">]</span> elementData
+Class01 <span class="token operator">:</span> size<span class="token punctuation">(</span><span class="token punctuation">)</span>
+Class01 <span class="token operator">:</span> int chimp
+Class01 <span class="token operator">:</span> int gorilla
+Class08 <span class="token keyword">&lt;-</span><span class="token operator">-&gt;</span> C2<span class="token operator">:</span> Cool label
+<span class="token operator">&lt;</span><span class="token operator">/</span>mermaid<span class="token operator">&gt;</span>
+</code></pre></div><div class="mermaid">
+classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+</div> <h2 id="graph"><a href="#graph" class="header-anchor">#</a> Graph</h2> <div class="language-scala extra-class"><pre class="language-scala"><code><span class="token generics"><span class="token punctuation">&lt;</span>mermaid<span class="token punctuation">&gt;</span></span>
+graph TD
+  A<span class="token punctuation">[</span>Silvester<span class="token punctuation">]</span> <span class="token operator">--</span><span class="token operator">&gt;</span><span class="token operator">|</span>Get money<span class="token operator">|</span> B<span class="token punctuation">(</span>Go shopping<span class="token punctuation">)</span>
+  B <span class="token operator">--</span><span class="token operator">&gt;</span> C<span class="token punctuation">{</span>Let me think<span class="token punctuation">}</span>
+  C <span class="token operator">--</span><span class="token operator">&gt;</span><span class="token operator">|</span>One<span class="token operator">|</span> D<span class="token punctuation">[</span>Laptop<span class="token punctuation">]</span>
+  C <span class="token operator">--</span><span class="token operator">&gt;</span><span class="token operator">|</span>Two<span class="token operator">|</span> E<span class="token punctuation">[</span>iPhone<span class="token punctuation">]</span>
+  C <span class="token operator">--</span><span class="token operator">&gt;</span><span class="token operator">|</span>Three<span class="token operator">|</span> F<span class="token punctuation">[</span>Car<span class="token punctuation">]</span>
+  C <span class="token operator">--</span><span class="token operator">&gt;</span><span class="token operator">|</span>Four<span class="token operator">|</span> F<span class="token punctuation">[</span>Mac<span class="token punctuation">]</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>mermaid<span class="token operator">&gt;</span>
+</code></pre></div><div class="mermaid">
+graph TD
+  A[Silvester] --&gt;|Get money| B(Go shopping)
+  B --&gt; C{Let me think}
+  C --&gt;|One| D[Laptop]
+  C --&gt;|Two| E[iPhone]
+  C --&gt;|Three| F[Car]
+  C --&gt;|Four| F[Mac]
+</div> <h2 id="sequence-diagram"><a href="#sequence-diagram" class="header-anchor">#</a> Sequence diagram</h2> <div class="language-scala extra-class"><pre class="language-scala"><code><span class="token generics"><span class="token punctuation">&lt;</span>mermaid<span class="token punctuation">&gt;</span></span>
+sequenceDiagram
+    Alice<span class="token operator">-&gt;</span><span class="token operator">&gt;</span>Bob<span class="token operator">:</span> Hello Bob<span class="token punctuation">,</span> how are you<span class="token operator">?</span>
+    alt is sick
+        Bob<span class="token operator">-&gt;</span><span class="token operator">&gt;</span>Alice<span class="token operator">:</span> Not so good <span class="token operator">:</span><span class="token punctuation">(</span>
+    <span class="token keyword">else</span> is well
+        Bob<span class="token operator">-&gt;</span><span class="token operator">&gt;</span>Alice<span class="token operator">:</span> Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob<span class="token operator">-&gt;</span><span class="token operator">&gt;</span>Alice<span class="token operator">:</span> Thanks <span class="token keyword">for</span> asking
+    end
+<span class="token operator">&lt;</span><span class="token operator">/</span>mermaid<span class="token operator">&gt;</span>
+</code></pre></div><div class="mermaid">
+sequenceDiagram
+    Alice-&gt;&gt;Bob: Hello Bob, how are you?
+    alt is sick
+        Bob-&gt;&gt;Alice: Not so good :(
+    else is well
+        Bob-&gt;&gt;Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob-&gt;&gt;Alice: Thanks for asking
+    end
+</div> <h2 id="gantt-diagram"><a href="#gantt-diagram" class="header-anchor">#</a> Gantt diagram</h2> <div class="language-scala extra-class"><pre class="language-scala"><code><span class="token generics"><span class="token punctuation">&lt;</span>mermaid<span class="token punctuation">&gt;</span></span>
+gantt
+section Section
+Completed    <span class="token operator">:</span>done<span class="token punctuation">,</span>    des1<span class="token punctuation">,</span> <span class="token number">2014</span><span class="token operator">-</span><span class="token number">01</span><span class="token operator">-</span><span class="token number">06</span><span class="token punctuation">,</span> <span class="token number">2014</span><span class="token operator">-</span><span class="token number">01</span><span class="token operator">-</span><span class="token number">08</span>
+Active       <span class="token operator">:</span>active<span class="token punctuation">,</span>  des2<span class="token punctuation">,</span> <span class="token number">2014</span><span class="token operator">-</span><span class="token number">01</span><span class="token operator">-</span><span class="token number">07</span><span class="token punctuation">,</span> <span class="token number">3d</span>
+Parallel <span class="token number">1</span>   <span class="token operator">:</span>         des3<span class="token punctuation">,</span> after des1<span class="token punctuation">,</span> <span class="token number">1d</span>
+Parallel <span class="token number">2</span>   <span class="token operator">:</span>         des4<span class="token punctuation">,</span> after des1<span class="token punctuation">,</span> <span class="token number">1d</span>
+Parallel <span class="token number">3</span>   <span class="token operator">:</span>         des5<span class="token punctuation">,</span> after des3<span class="token punctuation">,</span> <span class="token number">1d</span>
+Parallel <span class="token number">4</span>   <span class="token operator">:</span>         des6<span class="token punctuation">,</span> after des4<span class="token punctuation">,</span> <span class="token number">1d</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>mermaid<span class="token operator">&gt;</span>
+</code></pre></div><div class="mermaid">
+gantt
+section Section
+Completed    :done,    des1, 2014-01-06, 2014-01-08
+Active       :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+</div> <h2 id="mermaid-8-4-3-state-diagram"><a href="#mermaid-8-4-3-state-diagram" class="header-anchor">#</a> Mermaid 8.4.3+ =&gt; State diagram</h2> <div class="language-scala extra-class"><pre class="language-scala"><code><span class="token generics"><span class="token punctuation">&lt;</span>mermaid<span class="token punctuation">&gt;</span></span>
+stateDiagram
+  <span class="token punctuation">[</span><span class="token operator">*</span><span class="token punctuation">]</span> <span class="token operator">--</span><span class="token operator">&gt;</span> Still
+  Still <span class="token operator">--</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token operator">*</span><span class="token punctuation">]</span>
+  Still <span class="token operator">--</span><span class="token operator">&gt;</span> Moving
+  Moving <span class="token operator">--</span><span class="token operator">&gt;</span> Still
+  Moving <span class="token operator">--</span><span class="token operator">&gt;</span> Crash
+  Crash <span class="token operator">--</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token operator">*</span><span class="token punctuation">]</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>mermaid<span class="token operator">&gt;</span>
+</code></pre></div><div class="mermaid">
+stateDiagram
+  [*] --&gt; Still
+  Still --&gt; [*]
+  Still --&gt; Moving
+  Moving --&gt; Still
+  Moving --&gt; Crash
+  Crash --&gt; [*]
+</div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last updated:</span> <span class="time">5/1/2021, 11:16:42 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vuepress-pdf/" class="prev router-link-active">
+        Home
+      </a></span> <span class="next"><a href="/vuepress-pdf/uml.html">
+        UML
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vuepress-pdf/assets/js/app.0c353758.js" defer></script><script src="/vuepress-pdf/assets/js/2.52dbbd36.js" defer></script><script src="/vuepress-pdf/assets/js/15.09d9981f.js" defer></script><script src="/vuepress-pdf/assets/js/10.a6e26ae0.js" defer></script>
+  </body>
+</html>
