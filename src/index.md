@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: VuePress
-tagline: Diagrams quickstart
+tagline: PDF howto
 footer: Made by Maksim Kostromin with ❤️ 🤘
 actionText: Get Started →
 actionLink: /mermaid/
