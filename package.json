@@ -1,0 +1,41 @@
+{
+  "name": "vuepress-pdf",
+  "version": "1.0.0",
+  "description": "Quick and fast rapid VuePress documentation with diagrams development",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vuepress dev --no-clear-screen src",
+    "build": "vuepress build --no-cache src",
+    "pdf": "cross-env BASE='/vuepress-pdf/' vuepress export src",
+    "gh-pages": "cross-env BASE='/vuepress-pdf/' npm run build",
+    "test": "echo \"test are not implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daggerok/vuepress-pdf.git"
+  },
+  "keywords": [
+    "vuepress",
+    "pdf"
+  ],
+  "author": "Maksim Kostromin https://github.com/daggerok/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daggerok/vuepress-pdf/issues"
+  },
+  "homepage": "https://github.com/daggerok/vuepress-pdf#readme",
+  "dependencies": {
+    "@snowdog/vuepress-plugin-pdf-export": "1.1.0",
+    "cross-env": "7.0.3",
+    "github-markdown-css": "4.0.0",
+    "katex": "0.13.3",
+    "markdown-it-admonition": "1.0.4",
+    "markdown-it-katex": "2.0.3",
+    "markdown-it-plantuml": "1.4.1",
+    "markdown-it-vuepress-code-snippet-enhanced": "1.0.1",
+    "vuepress": "1.8.2",
+    "vuepress-theme-cool": "1.3.1",
+    "vuepress-theme-default-prefers-color-scheme": "2.0.0"
+  }
+}
